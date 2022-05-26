@@ -12,6 +12,7 @@
 .body {
  font-family: "Roboto", sans-serif;
  letter-spacing: 0.03em;
+ font-size: 14px;
  color: var(--main-title-color);
  background-color: var(--main-btn-color);
  }
@@ -23,8 +24,9 @@
 a {
     text-decoration: none;
     font-style: normal;}
-.link{
-    text-decoration: none;   
+.link {
+    text-decoration: none; 
+    /*font-style: normal;*/
 }
 .logo {
     font-family:'Raleway', sans-serif;
@@ -42,8 +44,8 @@ a {
 
 .list{
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
     text-decoration: none;
     list-style: none;
     
@@ -58,13 +60,11 @@ a {
 .current {
     color: var(--accent-color);
 }
-
-.list-tel {
-    color:var(--primary-text-color) ;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+.col-one{
+    color: var(--accent-color);
+}
+.col {
+    color: var(--primary-text-color) ;
 }
 
 /*спрятали заголовок список работ*/
@@ -162,7 +162,7 @@ a {
     line-height: 1.62;
     color: var(--main-title-color);
     cursor: pointer;
-    background-color: #F5F4FA;
+    background-color: var(--btn-comand);
 }
 .name-button:hover,
 .name-button:focus {
