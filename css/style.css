@@ -13,6 +13,7 @@
  font-family: "Roboto", sans-serif;
  letter-spacing: 0.03em;
  font-size: 14px;
+ font-weight: 400;
  color: var(--main-title-color);
  background-color: var(--main-btn-color);
  }
@@ -88,6 +89,7 @@ a {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
     color: var(--two-title-color);
 }
 .main-btn {
@@ -98,6 +100,7 @@ a {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.06em;
     color:var(--two-title-color);
 } 
 
@@ -105,7 +108,13 @@ a {
 .cursor:focus {
     box-shadow: 0px 4px 4px 0px #00000026;
 }
-
+.type-name{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color:var(--main-title-color);  
+}
 .type-text {
     font-size: 14px;
     line-height: 1.71;
@@ -154,6 +163,7 @@ a {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
     color: var(--main-title-color);
 }
 .name-button{
@@ -190,12 +200,10 @@ color:var(--two-title-color);
 .foot-add{
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--two-title-color);
 }
 .cont-add{
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color:var(--foot-cont);
 }
